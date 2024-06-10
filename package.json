@@ -1,0 +1,18 @@
+{
+    "name": "proyecto-impuestos",
+    "version": "1.0.0",
+    "description": "Sistema para calcular el impuesto anual de clientes utilizando ES6 y Babel.",
+    "main": "src/main.js",
+    "scripts": {
+      "build": "babel src -d dist",
+      "start": "node dist/main.js"
+    },
+    "dependencies": {
+      "@babel/cli": "^7.0.0",
+      "@babel/core": "^7.0.0",
+      "@babel/preset-env": "^7.0.0"
+    },
+    "author": "XYZ Consultores",
+    "license": "ISC"
+  }
+  
